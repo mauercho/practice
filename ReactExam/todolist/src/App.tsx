@@ -6,6 +6,8 @@ import TodoList from "./Todolist";
 import MapTest from "./MapText";
 // import Timer from "./Timer";
 import Clock from "./Timer";
+import MyWeather from "./MyWeather";
+
 function App() {
   // const [count, setCount] = useState(0);
 
@@ -14,6 +16,7 @@ function App() {
       <TodoList></TodoList>
       <MapTest></MapTest>
       <Clock></Clock>
+      <MyWeather weather="맑음">일기예보</MyWeather>
       {/* <Timer></Timer> */}
       {/* <div>
         <a href="https://vite.dev" target="_blank">
