@@ -67,7 +67,7 @@ const TodoList: React.FC = () => {
         </div>
         <div className="board">
           <ul>
-            {todos.map((todo, index) => (
+            {todos.map((todo) => (
               <li key={todo.id}>
                 <input
                   type="checkbox"
